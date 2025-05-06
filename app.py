@@ -8,7 +8,6 @@ from tensorflow import keras
 
 from tensorflow.keras.models import load_model
 
-keras.config.enable_unsafe_deserialization()
 
 # ─── 1) Load models & artifacts ─────────────────────────────────────────────────
 @st.cache_resource(show_spinner=False)
