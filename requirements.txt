@@ -5,7 +5,6 @@ numpy
 scikit-learn
 joblib
 tensorflow>=2.13.0
-tensorflow-addons
 pmdarima
 statsmodels
 ta
