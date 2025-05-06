@@ -1,10 +1,8 @@
-streamlit
 yfinance
-pandas
+pandas<2.0.0         # if you downgraded to pandas 1.x; otherwise just `pandas`
 numpy
 scikit-learn
 joblib
-tensorflow
-pmdarima
-statsmodels
+tf-nightly   # or `tf-nightly` if you prefer the nightly build
+statsmodels>=0.14.0
 ta
