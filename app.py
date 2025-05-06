@@ -91,7 +91,7 @@ st.metric("Latest Close (SAR)", f"{latest_close:.2f}")
 st.markdown("---")
 
 # Forecast button
-if st.button("🔮 Forecast Next Day"):
+if st.button("Forecast Next Day"):
     st.spinner("Running all models…")
     target_date = date.today() + timedelta(days=1)
 
