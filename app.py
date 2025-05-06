@@ -4,6 +4,10 @@ import yfinance as yf
 import pandas as pd
 import numpy as np
 import joblib
+from tensorflow import keras
+keras.config.enable_unsafe_deserialization()
+
+
 
 from tensorflow.keras.models import load_model
 
