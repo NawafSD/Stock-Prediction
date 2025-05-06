@@ -5,13 +5,8 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
-
-st.write("LSTM model exists at:", os.path.abspath("LSTM/lstm_model.keras"))
-# and, to inspect its layers:
 from tensorflow.keras.models import load_model
-m = load_model("LSTM/lstm_model.keras", compile=False)
-st.write("Loaded LSTM layers:", [layer.__class__.__name__ for layer in m.layers])
-st.stop()
+
 
 
 
